@@ -1,0 +1,27 @@
+{
+  "schemaVersion": 1,
+  "id": "loudernoteblocks",
+  "version": "${version}",
+  "name": "Louder Note Blocks",
+  "description": "Extends the audible range of note blocks",
+  "authors": [
+    "jquesada"
+  ],
+  "contact": {},
+  "license": "MIT",
+  "icon": "assets/loudernoteblocks/icon.png",
+  "environment": "*",
+  "entrypoints": {
+    "main": [
+      "net.jquesada.loudernoteblocks.LouderNoteBlocks"
+    ]
+  },
+  "mixins": [
+    "loudernoteblocks.mixins.json"
+  ],
+  "depends": {
+    "fabricloader": ">=${loader_version}",
+    "fabric": "*",
+    "minecraft": ">=${minecraft_version}"
+  }
+}
